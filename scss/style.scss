@@ -19,7 +19,6 @@ li {
 
 .first-section {
     background-color: #EEEFF1;
-    width: 1920px;
     height: 700px;
 
 }
@@ -60,7 +59,7 @@ li {
         color: #EEEFF1;
         width: 225px;
         height: 65px;
-        margin: 65px 1200px 140px 400px;
+        margin: 65px 0px 140px 400px;
         &:hover{
             background-color: red;
             border: none;
@@ -72,9 +71,12 @@ li {
 }
 
 .about-me {
-    width: 540px;
+
     height: 150px;
     margin: 112px 690px 100px 690px;
+}
+.about-me__wrapper{
+    width: 800px;
 }
 
 .header2 {
@@ -95,13 +97,12 @@ li {
 }
 
 .numb__wrapper{
-    max-width: 1920px;
     margin: 0 auto;
 }
 
 .numb {
     background-color: #34547A;
-    width: 1920px;
+  
     height: 250px;
 
     &__item {
@@ -140,7 +141,7 @@ li {
 
 
 .video {
-    width: 1920px;
+   
     height: 1000px;
     margin-top: 100px;
 }
@@ -151,11 +152,10 @@ li {
 
 .footer {
     background-color: #34547A;
-    width: 1920px;
     height: 150px;
 
     &__text {
-        margin: 50px 1300px 80px 400px;
+        margin: 50px 0px 80px 400px;
     }
 
     &__h3 {
@@ -181,28 +181,28 @@ li {
     }
     
     .header {
-        margin-left: 550px;
+        margin-left: 560px;
 
     }
     
     .text {
-        font-size: 20px;
+        font-size: 24px;
         text-align: left;
-        margin-left: 450px;
+        margin-left: 400px;
     }
     .first-screen {
         &__menu {
     font-size: 20px;
-            margin-left: 400px;}
+            margin-left: 320px;}
 
             &__button {
 
-                margin: 65px 1200px 140px 630px;
+                margin: 65px 0px 140px 600px;
         }
     }
     .about-me {
         font-size: 20px;
-        margin: 112px 690px 100px 470px;
+        margin: 112px 690px 100px 330px;
     }
     .numb{
         &__item {
@@ -210,12 +210,15 @@ li {
         }
     }
     .video {
-        margin-left: -200px;
+        margin-left: -20px;
+    }
+    .vidos {
+        margin-left: 220px;
     }
     .footer {
     
         &__text {
-            margin: 50px 1300px 80px 400px;
+            margin: 50px 0px 80px 400px;
         }
 }
 .header2 {
@@ -251,20 +254,23 @@ li {
         
                     &__button {
         
-                        margin: 65px 1200px 140px 530px;
+                        margin: 65px 0px 140px 530px;
                 }
             }
             .about-me {
                 font-size: 24px;
-                margin: 112px 690px 100px 370px;
+                margin: 112px 690px 100px 240px;
             }
             .numb{
                 &__item {
-                    margin-left: 50px;
+                    margin-left: 25px;
                 }
             }
             .video {
-                margin-left: -300px;
+                margin-left: 30px;
+            }
+            .vidos {
+                margin-left: 50px;
             }
             .footer {
             
